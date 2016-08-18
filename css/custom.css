@@ -14,3 +14,8 @@ body {
 #header .header-nav-top .nav > li > a, #header .header-nav-top .nav > li > span {
 	color: #941377; 	
 }
+
+.slider-container {
+	height: 1000px;
+}
+
