@@ -41,6 +41,7 @@
 		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
 		<link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
 		<link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
+		<link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css">
 
 		<!-- Skin CSS -->
 		<link rel="stylesheet" href="css/skins/default.css">
@@ -59,7 +60,7 @@
 		
 		<!-- HEADER -->
 		
-			<header id="header" data-plugin-options='{"stickyEnabled": true, "stickyEnableOnBoxed": true, "stickyEnableOnMobile": true, "stickyStartAt": 140, "stickySetTop": "-140px"}'>
+			<header id="header" data-plugin-options='{"stickyEnabled": true, "stickyEnableOnBoxed": true, "stickyEnableOnMobile": true, "stickyStartAt": 180, "stickySetTop": "-180px"}'>
 				<div class="header-body">
 					<div class="header-container container">
 						<div class="header-row">
@@ -120,9 +121,145 @@
 				</div>
 			</header>	
 
-			<!-- END HEADER -->
+		<!-- END HEADER -->
 			
-		</div>
+		<!-- MAIN -->			
+			
+			<div role="main" class="main">	
+				
+				<!-- SLIDER -->
+				
+				<div class="slider-container rev_slider_wrapper" style="height: 677px;">
+					<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options='{"delay": 9000, "gridwidth": 800, "gridheight": 677}'>
+						<ul>
+							<li data-transition="fade">
+								<img src="img/slides/slide-bg-4.jpg"  
+										alt=""
+										data-bgposition="center center" 
+										data-bgfit="cover" 
+										data-bgrepeat="no-repeat" 
+										class="rev-slidebg">														
+							</li>
+							<li data-transition="fade">
+								<img src="img/slides/slide-bg-3.jpg"  
+										alt=""
+										data-bgposition="center center" 
+										data-bgfit="cover" 
+										data-bgrepeat="no-repeat" 
+										class="rev-slidebg">								
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<!--END SLIDER -->
+			
+				<!-- HOME INTRO -->
+			
+				<div class="home-intro" id="home-intro">
+					<div class="container">
+
+						<div class="row">
+							<div class="col-md-8">
+								<p>
+									Book an appointment with one of our <em>Professional</em> estheticians!
+									<span>Walk-ins without an appointment are not guaranteed availability</span>
+								</p>
+							</div>
+							<div class="col-md-4">
+								<div class="get-started">
+									<a href="#" class="btn btn-lg btn-primary">Book Appointment</a>								
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				
+				<!-- END HOME INTRO -->
+				
+				<!-- SERVICES -->
+				
+				<div class="container">
+				
+					<div class="row center">
+						<div class="col-md-12">
+							<h1 class="mb-sm word-rotator-title">
+								Majestic Nails & Spa offers
+								<strong class="inverted">
+									<span class="word-rotate" data-plugin-options='{"delay": 2000, "animDelay": 300}'>
+										<span class="word-rotate-items">
+											<span>professional</span>
+											<span>amazing</span>
+											<span>elite</span>
+											<span>awesome</span>
+											<span>incredible</span>
+											<span>stunning</span>
+											<span>unbelievable</span>
+											<span>fascinating</span>
+											<span>marvelous</span>
+											<span>wonderful</span>
+											<span>royal</span>
+										</span>
+									</span>
+								</strong>
+								services.
+							</h1>
+							<p class="lead">
+								Majestic Nails & Spa is located in the heart of North Hollywood, CA. We offer a variety of nail, waxing and other salon services using top of the line products. Come pamper yourself luxuriously yet affordably!
+							</p>
+						</div>
+					</div>
+				
+				</div>
+				
+				<div class="home-concept">
+					<div class="container">
+				
+						<div class="row center">
+							<span class="sun"></span>
+							<span class="cloud"></span>
+							<div class="col-md-2 col-md-offset-1">
+								<div class="process-image appear-animation" data-appear-animation="bounceIn">
+									<img src="img/manicure.png" alt="Manicures" />
+									<strong>Manicures</strong>
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="process-image appear-animation" data-appear-animation="bounceIn" data-appear-animation-delay="200">
+									<img src="img/pedicure.png" alt="Pedicures" />
+									<strong>Pedicures</strong>
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="process-image appear-animation" data-appear-animation="bounceIn" data-appear-animation-delay="400">
+									<img src="img/waxing.png" alt="Waxing" />
+									<strong>Waxing</strong>
+								</div>
+							</div>
+							<div class="col-md-4 col-md-offset-1">
+								<div class="project-image">
+									<div id="fcSlideshow" class="fc-slideshow">
+										<ul class="fc-slides">
+											<li><a href="portfolio-single-small-slider.html"><img class="img-responsive" src="img/chrome.png" alt="Chrome Nails" /></a></li>
+											<li><a href="portfolio-single-small-slider.html"><img class="img-responsive" src="img/foot-massage.png" alt="Foot Massage" /></a></li>
+											<li><a href="portfolio-single-small-slider.html"><img class="img-responsive" src="img/hand-massage.png" alt="Hand Massage" /></a></li>
+											<li><a href="portfolio-single-small-slider.html"><img class="img-responsive" src="img/nail-designs.png" alt="Nail Designs" /></a></li>
+										</ul>
+									</div>
+									<strong class="our-work">& so much more!</strong>
+								</div>
+							</div>
+						</div>
+				
+					</div>
+				</div>
+				
+				<!-- END SERVICES -->
+			</div>
+		<!--END MAIN -->
+			
+		</div> <!-- END BODY -->
 		
 		<!-- Vendor -->
 		<script src="vendor/jquery/jquery.min.js"></script>
