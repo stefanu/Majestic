@@ -19,3 +19,21 @@ body {
 	height: 1000px;
 }
 
+.maji-counter {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.counters label {
+	color: #941377;
+	font-weight: 500;
+}
+
+html .counters .counter-primary .fa, html .counters .counter-primary .icons, html .counters .counter-primary strong {
+	color: #0088CC;
+}
+
+.raffle {
+	text-align: center;
+	padding-top: 40px;
+}
