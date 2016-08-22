@@ -109,3 +109,33 @@ html .counters .counter-primary .fa, html .counters .counter-primary .icons, htm
 .owl-carousel.rounded-nav .owl-nav [class*="owl-"], .owl-carousel.rounded-nav .owl-nav [class*="owl-"]:hover {	
 	border: 1px solid #a5526e !important;
 	color: #f9b711 !important;
+}
+
+#footer {
+	margin-top: 0;
+}
+
+#footer a {
+	color: #941377;
+}
+
+.business-hours ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.business-hours ul li {
+	margin-bottom: 10px;
+}
+
+.newsletter a {
+	color: #fff !important;
+}
+
+.footer-copyright {
+	text-align: center;
+}
+
+.footer-copyright img {
+	margin: auto;
+}
