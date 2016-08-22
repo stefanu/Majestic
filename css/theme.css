@@ -1196,6 +1196,7 @@ html:not(.sticky-header-active) #header.header-transparent-sticky-deactive .head
 
 	html.sticky-header-negative.sticky-header-active #header .header-logo {
 		padding-top: 7px;
+		top: 80px;
 	}
 }
 /* Mega Menu (Signin/SignUp) */

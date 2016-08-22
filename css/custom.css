@@ -1,5 +1,6 @@
 body {
 	background-color: #fef7ff;
+	overflow-x: hidden;
 }
 
 #header .header-body {
@@ -17,6 +18,14 @@ body {
 
 .slider-container {
 	height: 1000px;
+}
+
+.home-intro .get-started {
+	text-align: center !important;
+}
+
+.home-intro p {
+	text-align: center !important;
 }
 
 .maji-counter {
@@ -45,6 +54,10 @@ html .counters .counter-primary .fa, html .counters .counter-primary .icons, htm
 	color: #f9b711;
 	font-weight: 700;
     font-size: 1.6em;
+}
+
+.raffle h2 {
+	font-weight: 600 !important;
 }
 
 #ptext {
@@ -138,4 +151,12 @@ html .counters .counter-primary .fa, html .counters .counter-primary .icons, htm
 
 .footer-copyright img {
 	margin: auto;
+}
+
+
+
+@media (max-width: 992px) {
+  .hidden-xs {
+    display: none !important;
+  }
 }
