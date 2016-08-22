@@ -23,8 +23,8 @@ body {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	background-color: #fde7fc;
-	border-top: 1px solid #e7a5f1;
-	border-bottom: 1px solid #e7a5f1;
+	border-top: 5px solid #ffdefe;
+	border-bottom: 5px solid #ffdefe;
 }
 
 .counters label {
@@ -82,3 +82,30 @@ html .counters .counter-primary .fa, html .counters .counter-primary .icons, htm
 	padding-bottom: 0;
 	border: 2px solid #f9b711;
 }
+
+.testemonials {
+	margin-bottom: 0 !important;
+	background-color: #fde7fc !important;
+	border-top-color: #ffdefe !important;
+}
+
+.testimonial.testimonial-with-quotes blockquote:before {
+	color: #941377;
+}
+
+.testimonial.testimonial-with-quotes blockquote:after {
+	color: #941377;
+}
+
+.testimonial.testimonial-style-5 blockquote p {
+	color: #9f576b;
+}
+
+.testimonial .testimonial-author span {
+	color: #9f576b;
+}
+
+
+.owl-carousel.rounded-nav .owl-nav [class*="owl-"], .owl-carousel.rounded-nav .owl-nav [class*="owl-"]:hover {	
+	border: 1px solid #a5526e !important;
+	color: #f9b711 !important;
