@@ -19,3 +19,66 @@ body {
 	height: 1000px;
 }
 
+.maji-counter {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #fde7fc;
+	border-top: 1px solid #e7a5f1;
+	border-bottom: 1px solid #e7a5f1;
+}
+
+.counters label {
+	color: #941377;
+	font-weight: 500;
+}
+
+html .counters .counter-primary .fa, html .counters .counter-primary .icons, html .counters .counter-primary strong {
+	color: #0088CC;
+}
+
+.raffle {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.raffle h4 span {
+	color: #f9b711;
+	font-weight: 700;
+    font-size: 1.6em;
+}
+
+#ptext {
+	padding-top: 30px;
+}
+
+#ptext p {
+	color: #941377;
+	font-size: 1.2em;
+}
+
+#ptext span {
+	font-weight: 700;
+}
+
+.purse {
+	padding-top: 33px;
+}
+
+.date {
+	color: #941377;
+	font-weight: 700;
+}
+
+.raffle img {
+	padding-bottom: 20px;
+}
+
+.raffle p {
+	color: #941377;
+}
+
+.raffleround img {
+	border-radius: 50%;
+	padding-bottom: 0;
+	border: 2px solid #f9b711;
+}
