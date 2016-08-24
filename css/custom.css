@@ -153,10 +153,17 @@ html .counters .counter-primary .fa, html .counters .counter-primary .icons, htm
 	margin: auto;
 }
 
-
-
 @media (max-width: 992px) {
   .hidden-xs {
     display: none !important;
   }
+}
+
+.noborder {
+	border: 0 !important;
+}
+
+.featured-box {
+	margin-right: 20px !important;
+	margin-left: 20px !important;
 }
